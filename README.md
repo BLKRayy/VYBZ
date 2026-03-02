@@ -33,17 +33,6 @@ vybz/
     └── workflows/
         └── deploy.yml      ← Auto GitHub Pages deploy
 
-🛠️ Deploy to GitHub Pages
-One-time setup:
-bashgit clone https://github.com/yourusername/vybz.git
-cd vybz
-git add .
-git commit -m "🎵 initial commit"
-git push origin main
-Then go to Settings → Pages → Branch: main → Save.
-Your soundboard goes live at: https://yourusername.github.io/vybz
-Auto-deploy:
-Every push to main triggers the included GitHub Actions workflow — it redeploys automatically.
 
 🧠 How the Audio Works
 Everything is synthesized using the Web Audio API:
